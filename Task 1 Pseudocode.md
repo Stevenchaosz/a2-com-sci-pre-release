@@ -1,0 +1,8 @@
+```BASIC
+TYPE Books
+    DECLARE id : INTEGER[100..999]
+    DECLARE title : STRING
+    DECLARE author : STRING
+    DECLARE year : INTEGER
+ENDTYPE
+```
