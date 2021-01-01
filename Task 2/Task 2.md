@@ -1,6 +1,6 @@
 # Task 2
 ## Task 2.1
-root node: maroon
+root node: maroon  
 leaf nodes: amber, grey, lime green, red, violet
 
 ## Task 2.2
