@@ -20,7 +20,7 @@ class Tree:
         self.root.left.right.left = Node("violet")
         self.root.left.right.right = Node("lime green")
 
-# task 2.4
+    # task 2.4
     def add_base(self, color):
         if self.root is None:
             self.root = Node(color)
