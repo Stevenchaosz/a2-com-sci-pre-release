@@ -71,9 +71,9 @@ for i in range(10):
 # TASK 1.5
 # Hashing algorithm
 def hash_code(code):
-    exp = code ** 3
-    hash_val = int(str(exp)[2:5])
-    return hash_val
-
-# TASK 1.6
-#
+    # hash_val = int(str(code ** 5)[2:5]) + (code * 3 + 109) % 5
+    # exp = code ** 5
+    # sli_1 = 0  # int(str(exp)[2:5])
+    hash_val = code * 2  # + len(str(code)) % 3
+    # hash_val = sli_1 + sli_2
+    return hash_val * 100
